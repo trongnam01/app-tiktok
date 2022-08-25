@@ -25,6 +25,11 @@
 .title + .icon {
     margin-left: 8px;
 }
+.icon {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
 // tải áp
 .rounded {
     border-radius: 30px;
