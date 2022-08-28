@@ -20,6 +20,7 @@ function App() {
                         }
                         if (router.layout === null) {
                             Layout = Fragment;
+                            console.log(1);
                         }
                         return (
                             <Route
