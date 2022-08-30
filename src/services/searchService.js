@@ -1,8 +1,8 @@
-import * as request from '~/utils/request';
+import * as htppRequest from '~/utils/htppRequest';
 
 export const search = async (q, type = 'less') => {
     try {
-        const res = await request.get('users/search', {
+        const res = await htppRequest.get('users/search', {
             params: {
                 q,
                 type,
