@@ -3,7 +3,7 @@ import { publicRouters } from '~/routers';
 import { DefaultLayout } from './layouts';
 import { Fragment } from 'react';
 
-import './App.css';
+// import './App.css';
 
 function App() {
     return (
@@ -20,7 +20,6 @@ function App() {
                         }
                         if (router.layout === null) {
                             Layout = Fragment;
-                            console.log(1);
                         }
                         return (
                             <Route
